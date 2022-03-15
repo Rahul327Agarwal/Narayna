@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.add-icon {
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #222831;
+  color: #00adb5;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #00adb5;
+}
+.add-icon:hover {
+  background-color: #00adb5;
+  color: #eeeeee;
+}

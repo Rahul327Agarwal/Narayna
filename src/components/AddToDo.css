@@ -1,0 +1,41 @@
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 10px;
+}
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.todo-item {
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin: 10px;
+}
+.todo-item-text {
+  font-weight: 600;
+  color: #222831;
+}
+.todo-item-date {
+  font-weight: 400;
+  color: #222831;
+  background-color: #eeeeee;
+}
+.todo-item-checkbox {
+  padding: 10px;
+}
+.button {
+  background-color: #222831;
+  color: #00adb5;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 0 0 1px #00adb5;
+  padding: 10px;
+}
+.button:hover {
+  background-color: #00adb5;
+  color: #eeeeee;
+}
